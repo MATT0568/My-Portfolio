@@ -1,0 +1,170 @@
+/* html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+header {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+} */
+
+/* #profile {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    width: 20rem;
+    background-color: red;
+}
+
+#pic {
+    width: 20rem;
+    height: 22rem;
+}
+
+#info {
+    height: 20rem;
+    width: 20px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    background-color: red;
+}
+
+#navbar a {
+    color: #f2f2f2;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 9px;
+}
+
+#name {
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#title {
+    color: #f2f2f2;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#phone {
+    margin-top: 1rem;
+    color: #bfbfbf;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#email {
+    color: #bfbfbf;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#address {
+    color: #bfbfbf;
+    font-weight: 600;
+    font-size: 16px;
+} */
+
+/* #about {
+    color: black;
+    font-weight: 500;
+    font-size: 28px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+} */
+
+/* #about-para {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+} */
+
+
+
+/* @media screen and (max-width: 1100px) {
+    #intro {
+        height: 20rem;
+    }
+    #profile {}
+    #pic {
+        width: 15rem;
+        height: 17rem;
+    }
+    #info {
+        height: 20rem;
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    #name {
+        font-size: 28px;
+    }
+    #title {
+        font-size: 14px;
+    }
+    #phone {
+        font-size: 16px;
+    }
+    #email {
+        font-size: 16px;
+    }
+    #address {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #intro {
+        height: 20rem;
+    }
+    #profile {
+        background-color: red;
+    }
+    #pic {
+        width: 15rem;
+        height: 17rem;
+    }
+
+    #info {
+        height: 20rem;
+        width: 10rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+
+    #name {
+        font-size: 24px;
+    }
+
+    #title {
+        font-size: 12px;
+    }
+    
+    #phone {
+        font-size: 14px;
+    }
+
+    #email {
+        font-size: 14px;
+    }
+
+    #address {
+        font-size: 14px;
+    }
+} */

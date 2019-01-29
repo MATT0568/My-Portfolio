@@ -1,0 +1,207 @@
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+h2 {
+color: grey;
+}
+
+header {
+  padding: 154px 0 100px;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+
+footer {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+#pic {
+  width: 30rem;
+  height: 26rem;
+}
+
+.project-info {
+  width: 20rem;
+  height: 26rem;
+}
+
+.tags li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .14);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 3px
+}
+
+@media screen and (max-width:990px) {
+  .tags li {
+      margin-bottom: 10px
+  }
+}
+
+.project-card .project-card__img {
+  padding-right: 0;
+  padding-left: 0
+}
+
+.project-card .project-card__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 0;
+  background-color: #f6f5f5
+}
+
+.portfolio-modal .modal-header {
+  border-bottom: 0;
+  height: 70px
+}
+
+@media screen and (max-width:990px) {
+  .portfolio-modal .modal-header {
+      height: 50px
+  }
+}
+
+.portfolio-modal .modal-header .close {
+  right: 20px;
+  top: 20px;
+  position: absolute;
+  font-weight: 300;
+  color: #999;
+  font-size: 20px;
+  width: 20px
+}
+
+.portfolio-modal .modal-body {
+  padding: 0;
+  padding-bottom: 80px
+}
+
+@media screen and (max-width:990px) {
+  .portfolio-modal .modal-body {
+      padding: 15px;
+      padding-bottom: 50px
+  }
+}
+
+.project-card {
+  margin-left: 0;
+  margin-bottom: 40px;
+  transition: box-shadow .3s;
+  margin-right: 0
+}
+
+.project-card .project-card__img {
+  padding-right: 0;
+  padding-left: 0
+}
+
+.project-card .project-card__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+
+.project-card .project-card__info {
+  border: 1px solid #f1f1f1;
+  padding: 50px 50px 40px 30px
+}
+
+.project-card .project-card__title {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: Roboto Mono, monospace;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 700
+}
+
+.project-card .project-card__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 45px
+}
+
+.project-card .project-card__stack {
+  font-family: Roboto Mono, monospace;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 15px
+}
+
+.project-card .project-card__link {
+  margin-top: 55px;
+  font-family: Roboto Mono, monospace;
+  font-size: 14px;
+  line-height: 20px;
+  float: right
+}
+
+.project-card:hover {
+  box-shadow: 0 1px 31px rgba(0, 0, 0, .09);
+  cursor: pointer
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px
+}
+
+.section .section__title {
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 42px;
+  font-family: Roboto Mono, monospace
+}
+
+.section .section__description {
+  margin-bottom: 30px
+}
+
+@media screen and (max-width:760px) {
+  .section {
+      padding-top: 50px;
+      padding-bottom: 50px
+  }
+}
